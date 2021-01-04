@@ -1,0 +1,163 @@
+[
+	{
+		"subject": "LNG222 Academic Listening and Speaking in International Contexts (G.5)",
+		"lecturer": "Aj John",
+		"time": "(9.00-12.00)",
+		"room": "CB2304"
+	},
+	{
+		"subject": "CSC261 Statistics for Scientists",
+		"lecturer": "Dr.Debajyoti",
+		"time": "(13.30-16.30)",
+		"room": "CB2312"
+	},
+	{
+		"subject": "MTH102 Mathematics II (G.35)",
+		"time": "(10.30-12.30)",
+		"room": "CB2603"
+	},
+	{
+		"subject": "CSC531 Data Mining",
+		"lecturer": "Asst.Prof.Dr.Chakarida",
+		"time": "(13.30-16.30)",
+		"room": "Training room 5"
+	},
+	{
+		"subject": "CSC209 Data Structure",
+		"lecturer": "Asst.Prof.Dr.Narongrit",
+		"time": "(9.00-10.30)",
+		"room": "CB2308"
+	},
+	{
+		"subject": "GEN101 Physical Education (G.45)",
+		"time": "(10.30-12.30)",
+		"room": "GYM"
+	},
+	{
+		"subject": "CSC217 OS",
+		"lecturer": "Asst.Prof.Dr.Narongrit",
+		"time": "(10.30-12.00)",
+		"room": "CB2308"
+	},
+	{
+		"subject": "CSC322 Intelligent Infrastructure",
+		"lecturer": "Dr.Anuchart",
+		"time": "(9.00-12.00)",
+		"room": "CB2304"
+	},
+	{
+		"subject": "GEN101 Physical Education (G.46)",
+		"time": "(13.30-15.30)",
+		"room": "GYM"
+	},
+	{
+		"subject": "CSC231 Agile Software Engineering",
+		"lecturer": "Dr. Vithida/Assoc.Prof.Dr. Vajirasak",
+		"time": "(13.30-16.30)",
+		"room": "CB2308"
+	},
+	{
+		"subject": "LNG322 Academic Writing I (G.4)",
+		"lecturer": "Aj.SOLA",
+		"time": "(13.30-16.30)",
+		"room": "(Online)"
+	},
+	{
+		"subject": "LNG322 Academic Writing I (6.5)",
+		"lecturer": "Aj.John",
+		"time": "(13.30-16.30)",
+		"room": "CB2305"
+	},
+	{
+		"subject": "CSC105 Web Application Development",
+		"lecturer": "Asst. Prof. Dr. Chonlameth",
+		"time": "(13.00-17.00)",
+		"room": "Classroom 4/2"
+	},
+	{
+		"subject": "CSC103 Computer Architecture and Organization",
+		"time": "(9.00-12.00)",
+		"room": "CB2312"
+	},
+	{
+		"subject": "LNG322 Academic Writing I (G.2)",
+		"lecturer": "Aj.John",
+		"time": "(9.00-12.00)",
+		"room": "CB2305"
+	},
+	{
+		"subject": "CSC536 Data Visualization Fundamentals",
+		"lecturer": "Asst.Prof.Dr.Pornchai",
+		"time": "(13.30-16.30)",
+		"room": "CB2313"
+	},
+	{
+		"subject": "LNG322 Academic Writing I (G.3)",
+		"lecturer": "Aj.SOLA",
+		"time": "(9.00-12.00)",
+		"room": "(Online)"
+	},
+	{
+		"subject": "MTH102 Mathematics II (G.35)",
+		"time": "(10.30-12.30)",
+		"room": "CB2603"
+	},
+	{
+		"subject": "GEN241 Beauty of Life (G.31-33)",
+		"time": "(13.30-16.30)",
+		"room": "Online"
+	},
+	{
+		"subject": "CSC234 User-Centered Mobile App. Dev.",
+		"lecturer": "Assoc.Prof.Dr.Vajirasak",
+		"time": "(14.00-18.00)",
+		"room": "Classroom 4/2"
+	},
+	{
+		"subject": "CSC319 Advanced Java",
+		"lecturer": "Asst.Prof.Dr.Chonlameth",
+		"time": "(13.30-16.30)",
+		"room": "CB2312"
+	},
+	{
+		"subject": "LNG222 Academic Listening and Speaking in International Contexts (G.6)",
+		"lecturer": "Aj John",
+		"time": "(9.00-12.00)",
+		"room": "CB2304"
+	},
+	{
+		"subject": "CSC209 Data Structure",
+		"lecturer": "Asst.Prof.Dr.Narongrit",
+		"time": "(14.30-16.00)",
+		"room": "CB2308"
+	},
+	{
+		"subject": "CSC233 Programming Paradigms",
+		"lecturer": "Asst. Prof.Dr.Pornchai",
+		"time": "(13.00-14.30)",
+		"room": "CB2308"
+	},
+	{
+		"subject": "CSC217 OS",
+		"lecturer": "Asst.Prof.Dr.Narongrit",
+		"time": "(13.00-14.30)",
+		"room": "CB2306"
+	},
+	{
+		"subject": "GEN351 Modern Management and Leadership (G.33-34)",
+		"time": "(8.30-11.30)",
+		"room": "Online"
+	},
+	{
+		"subject": "CSC532 Machine Learning",
+		"lecturer": "Assoc.Prof.Dr.Jonathan",
+		"time": "(9.00-12.00)",
+		"room": "Training room 1"
+	},
+	{
+		"subject": "CSC 493 Advanced Software Testing",
+		"lecturer": "Guest Lecturer",
+		"time": "(12.00-15.00)",
+		"room": "Training room 1"
+	}
+]
