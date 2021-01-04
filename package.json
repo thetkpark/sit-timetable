@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "backpack",
-		"build": "backbuild build"
+		"build": "backpack build"
 	},
 	"dependencies": {
 		"apollo-server-fastify": "^2.19.1",
