@@ -2,15 +2,16 @@ import fastify from 'fastify'
 import { ApolloServer } from 'apollo-server-fastify'
 import typeDefs from './schema/index.ts'
 import resolvers from './resolvers/index.ts'
+import restRoute from './routes.ts'
 
 const port = process.env.PORT || 4000
 const app = fastify({
-	logger: true
+	// logger: true
 })
-
-app.get('/', (req, res) => {
-	res.send({ hello: 'world' })
-})
+app.register(restRoute)
+// app.get('/', (req, res) => {
+// 	res.send({ hello: 'world' })
+// })
 
 const apolloServer = new ApolloServer({
 	typeDefs,
@@ -19,7 +20,6 @@ const apolloServer = new ApolloServer({
 })
 
 app.register(apolloServer.createHandler())
-console.log(apolloServer.graphqlPath)
 
 app.listen(port, () => {
 	console.log(`Serving on ${port}`)
