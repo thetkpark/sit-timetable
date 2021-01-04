@@ -2,13 +2,14 @@ import fastify from 'fastify'
 import { ApolloServer } from 'apollo-server-fastify'
 import typeDefs from './schema/index.ts'
 import resolvers from './resolvers/index.ts'
-import restRoute from './routes.ts'
+import { rootRoute, specificRoute } from './routes.ts'
 
 const port = process.env.PORT || 4000
 const app = fastify({
 	// logger: true
 })
-app.register(restRoute)
+app.register(rootRoute)
+app.register(specificRoute)
 // app.get('/', (req, res) => {
 // 	res.send({ hello: 'world' })
 // })

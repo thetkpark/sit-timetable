@@ -8,7 +8,11 @@ interface SubjectQueryString {
 	day?: DayInWeek
 }
 
-const restRoute = async (app: FastifyInstance): Promise<void> => {
+interface SubjectQueryParam {
+	subject: string
+}
+
+const rootRoute = async (app: FastifyInstance): Promise<void> => {
 	app.get<{
 		Querystring: SubjectQueryString
 	}>('/', async (req, res) => {
@@ -31,4 +35,16 @@ const restRoute = async (app: FastifyInstance): Promise<void> => {
 	})
 }
 
-export default restRoute
+const specificRoute = async (app: FastifyInstance): Promise<void> => {
+	app.get<{
+		Params: SubjectQueryParam
+	}>('/:subject', async (req, res) => {
+		const subjectId = req.params.subject.toLowerCase()
+		const subjects: Subject[] = await getAllSubject()
+		const subject = subjects.find(subj => subj.subject.toLowerCase().startsWith(subjectId))
+		console.log(subject)
+		res.send(subject)
+	})
+}
+
+export { rootRoute, specificRoute }
