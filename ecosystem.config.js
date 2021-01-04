@@ -3,7 +3,11 @@ module.exports = {
 		{
 			name: 'cscms-cs-sit-timetable',
 			script: 'build/main.js',
-			autorestart: true
+			autorestart: true,
+			env: {
+				NODE_ENV: 'production',
+				PORT: 4000
+			}
 		}
 	]
 
