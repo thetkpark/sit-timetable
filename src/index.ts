@@ -1,6 +1,26 @@
-import vistionResultTextToJson from './util/readFromVision.ts'
-// import ical from "ical-generator";
+import fastify from 'fastify'
+import { ApolloServer } from 'apollo-server-fastify'
+import typeDefs from './schema/index.ts'
+import resolvers from './resolvers/index.ts'
 
-// const cal = ical()
-// cal.createEvent()
-vistionResultTextToJson('data/2563-2.txt')
+const port = process.env.PORT || 4000
+const app = fastify({
+	logger: true
+})
+
+app.get('/', (req, res) => {
+	res.send({ hello: 'world' })
+})
+
+const apolloServer = new ApolloServer({
+	typeDefs,
+	resolvers,
+	playground: true
+})
+
+app.register(apolloServer.createHandler())
+console.log(apolloServer.graphqlPath)
+
+app.listen(port, () => {
+	console.log(`Serving on ${port}`)
+})

@@ -1,18 +1,6 @@
 /* eslint-disable no-lonely-if */
 import fs from 'fs'
-
-type DayInWeek = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday'
-
-interface Subject {
-	subject: String
-	lecturer?: String
-	startTime: String
-	endTime: String
-	room: String
-	year: [Number]
-	fastTrack: Boolean
-	day: DayInWeek
-}
+import { Subject } from '../types/Subject.ts'
 
 const vistionResultTextToJson = filePath => {
 	const text = fs
