@@ -1,11 +1,17 @@
 /* eslint-disable no-lonely-if */
 import fs from 'fs'
 
+type DayInWeek = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday'
+
 interface Subject {
 	subject: String
 	lecturer?: String
-	time: String
+	startTime: String
+	endTime: String
 	room: String
+	year: [Number]
+	fastTrack: Boolean
+	day: DayInWeek
 }
 
 const vistionResultTextToJson = filePath => {
@@ -34,10 +40,15 @@ const vistionResultTextToJson = filePath => {
 				const timeRoomRegex = /(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\))\s?(.*)/g
 				const timeRoom = timeRoomRegex.exec(text[i + 1])
 				if (!timeRoom) throw new Error('GEN timeRoom NULL')
+				const time = timeRoom[1].replace('(', '').replace(')', '').split('-')
 				const subj: Subject = {
 					subject: text[i],
-					time: timeRoom[1],
-					room: timeRoom[2]
+					startTime: time[0],
+					endTime: time[1],
+					room: timeRoom[2].replace('(', '').replace(')', ''),
+					year: [1],
+					fastTrack: false,
+					day: 'Monday'
 				}
 				subject.push(subj)
 				i += 2
@@ -51,22 +62,32 @@ const vistionResultTextToJson = filePath => {
 					const timeRoomRegex = /(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\))\s?(.*)/g
 					const timeRoom = timeRoomRegex.exec(text[i + 2])
 					if (!timeRoom) throw new Error('timeRoom NULL')
+					const time = timeRoom[1].replace('(', '').replace(')', '').split('-')
 					const subj: Subject = {
 						subject: text[i],
 						lecturer: text[i + 1],
-						time: timeRoom[1],
-						room: timeRoom[2]
+						startTime: time[0],
+						endTime: time[1],
+						room: timeRoom[2].replace('(', '').replace(')', ''),
+						year: [1],
+						fastTrack: false,
+						day: 'Monday'
 					}
 					subject.push(subj)
 				} else {
 					const lecturerRoomRegex = /(.+)\s+(.+)/g
 					const lecturerRoom = lecturerRoomRegex.exec(text[i + 1])
 					if (!lecturerRoom) throw new Error('lecturerRoom NULL')
+					const time = text[i + 2].replace('(', '').replace(')', '').split('-')
 					const subj: Subject = {
 						subject: text[i],
 						lecturer: lecturerRoom[1],
-						time: text[i + 2],
-						room: lecturerRoom[2]
+						startTime: time[0],
+						endTime: time[1],
+						room: lecturerRoom[2].replace('(', '').replace(')', ''),
+						year: [1],
+						fastTrack: false,
+						day: 'Monday'
 					}
 					subject.push(subj)
 				}
@@ -76,7 +97,7 @@ const vistionResultTextToJson = filePath => {
 			i += 1
 		}
 	}
-	fs.writeFileSync(filePath, JSON.stringify(subject))
+	fs.writeFileSync('data/allSubject.json', JSON.stringify(subject))
 }
 
 export default vistionResultTextToJson
