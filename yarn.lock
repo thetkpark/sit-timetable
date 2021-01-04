@@ -860,18 +860,6 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@prisma/client@^2.13.1":
-  version "2.13.1"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.13.1.tgz#7379eeca980afc2fe64d2c745eb90480877f30f4"
-  integrity sha512-aD33DJpVHU3VqwDk5PEgnffbQeilUqmwVgqIxstVEiZ7TSs5oXQjwsSWAEfuvzPsR/rMJdeauAov58WHlMbVVA==
-  dependencies:
-    "@prisma/engines-version" "2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4"
-
-"@prisma/engines-version@2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4":
-  version "2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4"
-  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4.tgz#9f5d48054aeeea0dfffeb45572aba7097e33c198"
-  integrity sha512-xMfD9iu03XSTgZqgWYqTnKYfmabjY+U2tj7ClA1WQqLziY0ZGI48tZQpNe6WGzv+6nVss3PpfHfkKlM0kzhZbw==
-
 "@types/json-schema@^7.0.3", "@types/json-schema@^7.0.5":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
