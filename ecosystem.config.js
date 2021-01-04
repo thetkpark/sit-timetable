@@ -14,11 +14,11 @@ module.exports = {
 	deploy: {
 		production: {
 			user: 'thetkpark',
-			host: '138.91.32.16',
+			host: process.env.HOST,
 			ssh_options: 'PasswordAuthentication=Yes',
 			ref: 'origin/master',
 			repo: 'https://github.com/thetkpark/sit-timetable.git',
-			path: '/home/thetkpark',
+			path: '/home/thetkpark/cs-sit-timetable',
 			'post-deploy': 'yarn; yarn build; pm2 reload ecosystem.config.js'
 		}
 	}
