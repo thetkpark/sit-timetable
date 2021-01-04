@@ -2,8 +2,8 @@ import { gql } from 'apollo-server-fastify'
 
 const typeDefs = gql`
 	type Query {
-		subjects: [Subject]
-		hello: String
+		subjects(year: Int, fastTrack: Boolean, day: DayInWeek, room: String): [Subject]!
+		subject(id: String!): Subject!
 	}
 	type Subject {
 		subject: String!

@@ -8,11 +8,9 @@ const port = process.env.PORT || 4000
 const app = fastify({
 	// logger: true
 })
+
 app.register(rootRoute)
 app.register(specificRoute)
-// app.get('/', (req, res) => {
-// 	res.send({ hello: 'world' })
-// })
 
 const apolloServer = new ApolloServer({
 	typeDefs,
