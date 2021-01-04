@@ -9,18 +9,17 @@ module.exports = {
 				PORT: 4000
 			}
 		}
-	]
+	],
 
-	// deploy : {
-	//   production : {
-	//     user : 'SSH_USERNAME',
-	//     host : 'SSH_HOSTMACHINE',
-	//     ref  : 'origin/master',
-	//     repo : 'GIT_REPOSITORY',
-	//     path : 'DESTINATION_PATH',
-	//     'pre-deploy-local': '',
-	//     'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
-	//     'pre-setup': ''
-	//   }
-	// }
+	deploy: {
+		production: {
+			user: 'thetkpark',
+			host: '138.91.32.16',
+			ssh_options: 'PasswordAuthentication=Yes',
+			ref: 'origin/master',
+			repo: 'https://github.com/thetkpark/sit-timetable.git',
+			path: '/home/thetkpark',
+			'post-deploy': 'yarn; yarn build; pm2 reload ecosystem.config.js'
+		}
+	}
 }
