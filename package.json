@@ -10,6 +10,8 @@
 	"dependencies": {
 		"apollo-server-fastify": "^2.19.1",
 		"backpack-core": "^0.8.4",
+		"datebook": "^6.2.0",
+		"dayjs": "^1.10.1",
 		"fastify": "^3.9.2",
 		"ical-generator": "^1.15.3",
 		"ts-loader": "^8.0.13",
