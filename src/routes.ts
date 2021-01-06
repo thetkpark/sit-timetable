@@ -70,7 +70,7 @@ const downloadiCalRoute = async (app: FastifyInstance): Promise<void> => {
 			const fileName: string = `year-${year}-${fastTrack == 'true' ? 'fasttrack' : 'normal-track'}.ics`
 			subjects = subjects.filter(subject => {
 				const yearMatch = subject.year.some(years => years == year)
-				const fastTrackMatch = fastTrack == 'false' ? `${subject.fastTrack}` == fastTrack : true
+				const fastTrackMatch = fastTrack == 'true' ? true : `${subject.fastTrack}` == 'false'
 				return yearMatch && fastTrackMatch
 			})
 			generateiCal(subjects, '18-01-2021', '08-03-2021', '16-03-2021', '16-05-2021', fileName)
