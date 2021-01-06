@@ -40,19 +40,20 @@ const getMidtermExamDate = (firstDayOfMidterm: String, lastDayOfMidterm: String)
 	return excludeDate
 }
 
-const generateiCal = async (
+const generateiCal = (
+	subjects: Subject[],
 	firstDayOfSemester: String,
 	firstDayOfMidterm: String,
 	lastDayOfMidterm: String,
-	lastDayBeforeFinal: String
+	lastDayBeforeFinal: String,
+	fileName: string
 ) => {
-	const subjects: Subject[] = await getAllSubject()
 	const cal = ical()
 	const excludeDate = getMidtermExamDate(firstDayOfMidterm, lastDayOfMidterm)
 
 	subjects.forEach(subject => {
 		const subj = subject.subject.split(' ')
-		const des = `${subject.subject}\n${subject.lecturer}`
+		const des = `${subject.subject}\n${subject.lecturer ? subject.lecturer : ''}`
 		const startDateTime = getStartDate(firstDayOfSemester, subject.day)
 		const event: EventData = {
 			timezone: 'Asia/Bangkok',
@@ -69,8 +70,7 @@ const generateiCal = async (
 		}
 		cal.createEvent(event)
 	})
-	cal.saveSync('cal.ics')
-	console.log('DONE WRITING')
+	cal.saveSync(fileName)
 }
 
 export default generateiCal
