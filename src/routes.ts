@@ -54,7 +54,6 @@ const specificRoute = async (app: FastifyInstance): Promise<void> => {
 			const subjectId = req.params.subject.toLowerCase()
 			const subjects: Subject[] = await getAllSubject()
 			const subject = subjects.find(subj => subj.subject.toLowerCase().startsWith(subjectId))
-			console.log(subject)
 			res.send(subject)
 		} catch (error) {
 			res.status(500).send(error)
@@ -76,7 +75,7 @@ const downloadiCalRoute = async (app: FastifyInstance): Promise<void> => {
 			generateiCal(subjects, '18-01-2021', '08-03-2021', '16-03-2021', '16-05-2021', fileName)
 			const icalFile = fs.readFileSync(fileName)
 			fs.unlinkSync(fileName)
-			res.send(icalFile)
+			res.header('content-type', 'text/calendar').send(icalFile)
 		} catch (error) {
 			res.status(500).send(error)
 		}
