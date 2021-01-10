@@ -25,12 +25,19 @@ const rootRoute = async (app: FastifyInstance): Promise<void> => {
 		Querystring: SubjectQueryString
 	}>('/', async (req, res) => {
 		try {
-			const { year, day, room } = req.query
-			const fastTrack = req.query.fastTrack || false
+			const { year, day, room, fastTrack } = req.query
 			let subjects: Subject[] = await getAllSubject()
 			if (year) {
+				subjects = subjects.filter(subject => subject.year.some(years => years.year == year))
+			}
+			if (year && fastTrack == 'false') {
 				subjects = subjects.filter(subject =>
-					subject.year.some(years => years.fastTrack == fastTrack && years.year == year)
+					subject.year.every(years => !(years.year == year && years.fastTrack == true))
+				)
+			}
+			if (year && fastTrack == 'true') {
+				subjects = subjects.filter(subject =>
+					subject.year.every(years => !(years.year == year - 1 && years.fastTrack == true))
 				)
 			}
 			if (day) {
@@ -63,22 +70,30 @@ const specificRoute = async (app: FastifyInstance): Promise<void> => {
 
 const downloadiCalRoute = async (app: FastifyInstance): Promise<void> => {
 	app.get<{ Querystring: iCalDownloadQueryString }>('/ical', async (req, res) => {
-		// try {
-		// 	const { fastTrack, year } = req.query
-		// 	let subjects: Subject[] = await getAllSubject()
-		// 	const fileName: string = `year-${year}-${fastTrack == 'true' ? 'fasttrack' : 'normal-track'}.ics`
-		// 	subjects = subjects.filter(subject => {
-		// 		const yearMatch = subject.year.some(years => years == year)
-		// 		const fastTrackMatch = fastTrack == 'true' ? true : `${subject.fastTrack}` == 'false'
-		// 		return yearMatch && fastTrackMatch
-		// 	})
-		// 	generateiCal(subjects, '18-01-2021', '08-03-2021', '16-03-2021', '16-05-2021', fileName)
-		// 	const icalFile = fs.readFileSync(fileName)
-		// 	fs.unlinkSync(fileName)
-		// 	res.header('content-type', 'text/calendar').send(icalFile)
-		// } catch (error) {
-		// 	res.status(500).send(error)
-		// }
+		try {
+			const { fastTrack, year } = req.query
+			let subjects: Subject[] = await getAllSubject()
+			const fileName: string = `year-${year}-${fastTrack == 'true' ? 'fasttrack' : 'normal-track'}.ics`
+			if (year) {
+				subjects = subjects.filter(subject => subject.year.some(years => years.year == year))
+			}
+			if (year && fastTrack == 'false') {
+				subjects = subjects.filter(subject =>
+					subject.year.every(years => !(years.year == year && years.fastTrack == true))
+				)
+			}
+			if (year && fastTrack == 'true') {
+				subjects = subjects.filter(subject =>
+					subject.year.every(years => !(years.year == year - 1 && years.fastTrack == true))
+				)
+			}
+			generateiCal(subjects, '18-01-2021', '08-03-2021', '16-03-2021', '16-05-2021', fileName)
+			const icalFile = fs.readFileSync(fileName)
+			fs.unlinkSync(fileName)
+			res.header('content-type', 'text/calendar').send(icalFile)
+		} catch (error) {
+			res.status(500).send(error)
+		}
 	})
 }
 
