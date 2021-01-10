@@ -11,9 +11,12 @@ const typeDefs = gql`
 		startTime: String!
 		endTime: String!
 		room: String!
-		year: [Int]!
-		fastTrack: Boolean!
+		year: [Years]!
 		day: DayInWeek!
+	}
+	type Years {
+		year: Int!
+		fastTrack: Boolean!
 	}
 	enum DayInWeek {
 		Monday

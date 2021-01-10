@@ -2,6 +2,11 @@
 import fs from 'fs'
 import { Subject } from '../types/Subject.ts'
 
+const defaultYear = {
+	year: 1,
+	fastTrack: false
+}
+
 const vistionResultTextToJson = filePath => {
 	const text = fs
 		.readFileSync(filePath)
@@ -20,10 +25,7 @@ const vistionResultTextToJson = filePath => {
 		const subJectRegex = /(\w{3}\s?\d{3}).*/
 		if (subJectRegex.test(text[i])) {
 			const testGenRegex = /(GEN\d{3}).*/
-			if (
-				testGenRegex.test(text[i]) ||
-				/(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\)).*/g.test(text[i + 1])
-			) {
+			if (testGenRegex.test(text[i]) || /(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\)).*/g.test(text[i + 1])) {
 				// GEN class (Not leucturer name) OR No lecturer name is provided
 				const timeRoomRegex = /(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\))\s?(.*)/g
 				const timeRoom = timeRoomRegex.exec(text[i + 1])
@@ -34,18 +36,13 @@ const vistionResultTextToJson = filePath => {
 					startTime: time[0],
 					endTime: time[1],
 					room: timeRoom[2].replace('(', '').replace(')', ''),
-					year: [1],
-					fastTrack: false,
+					year: [defaultYear],
 					day: 'Monday'
 				}
 				subject.push(subj)
 				i += 2
 			} else {
-				if (
-					/(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\))\s+(.+)/g.test(
-						text[i + 2]
-					)
-				) {
+				if (/(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\))\s+(.+)/g.test(text[i + 2])) {
 					// Room at the same level of time
 					const timeRoomRegex = /(\(\d{1,2}.\d{1,2}\s*-\s*\d{1,2}.\d{1,2}\))\s?(.*)/g
 					const timeRoom = timeRoomRegex.exec(text[i + 2])
@@ -57,8 +54,7 @@ const vistionResultTextToJson = filePath => {
 						startTime: time[0],
 						endTime: time[1],
 						room: timeRoom[2].replace('(', '').replace(')', ''),
-						year: [1],
-						fastTrack: false,
+						year: [defaultYear],
 						day: 'Monday'
 					}
 					subject.push(subj)
@@ -73,8 +69,7 @@ const vistionResultTextToJson = filePath => {
 						startTime: time[0],
 						endTime: time[1],
 						room: lecturerRoom[2].replace('(', '').replace(')', ''),
-						year: [1],
-						fastTrack: false,
+						year: [defaultYear],
 						day: 'Monday'
 					}
 					subject.push(subj)

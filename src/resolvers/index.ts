@@ -1,16 +1,24 @@
+import { UserInputError } from 'apollo-server-fastify'
 import getAllSubject from '../db/db.ts'
 import { Subject } from '../types/Subject'
-import { UserInputError } from 'apollo-server-fastify'
 
 const resolvers = {
+	// Truly Fasttrack
 	Query: {
 		subjects: async (_, { year, fastTrack, day, room }) => {
 			let subjects: Subject[] = await getAllSubject()
 			if (year) {
-				subjects = subjects.filter(subject => subject.year.some(years => years == year))
+				subjects = subjects.filter(subject => subject.year.some(years => years.year == year))
 			}
-			if (fastTrack === false) {
-				subjects = subjects.filter(subject => subject.fastTrack === false)
+			if (year && fastTrack == false) {
+				subjects = subjects.filter(subject =>
+					subject.year.every(years => !(years.year == year && years.fastTrack == true))
+				)
+			}
+			if (year && fastTrack == true) {
+				subjects = subjects.filter(subject =>
+					subject.year.every(years => !(years.year == year - 1 && years.fastTrack == true))
+				)
 			}
 			if (day) {
 				subjects = subjects.filter(subject => subject.day == day)
