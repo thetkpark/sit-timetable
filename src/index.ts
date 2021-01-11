@@ -17,15 +17,17 @@ app.register(rateLimit, {
 	timeWindow: 5000
 })
 
-app.register(rootRoute)
-app.register(specificRoute)
-app.register(downloadiCalRoute)
+app.register(rootRoute, { prefix: '/api' })
+app.register(specificRoute, { prefix: '/api' })
+app.register(downloadiCalRoute, { prefix: '/api' })
 
 const apolloServer = new ApolloServer({
 	typeDefs,
 	resolvers,
 	playground: true
 })
+
+apolloServer.setGraphQLPath('/graphql')
 
 app.register(apolloServer.createHandler())
 
