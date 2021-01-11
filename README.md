@@ -14,6 +14,8 @@ Build with Fastify and Apollo Server Fastify
 
 The data extracted from the timetable in PDF using Google Cloud Vision API and create a JSON representation of it by `/util/readFromVision.ts`
 
+Available at https://timetable.cscms.me/
+
 ## Installation & Usage
 
 Install all the dependencies
@@ -30,14 +32,63 @@ Run it with Node
 
 ## REST API Endpoints
 
-- `/` Get all subjects in that semester
+- `/api` Get all subjects in that semester
   - Available query: 
     - year: Integer of 1 to 4
     - fastTrack: true | false
     - room: string of the roomId (Ex: CB2308)
     - day: Monday | Tuesday | Wednesday | Thursday | Friday
-- `/:subjectId` Get a specific subject
+    
+  - Example Response
+
+    ```json
+    [
+        {
+        "subject": "CSC261 Statistics for Scientists",
+        "lecturer": "Dr.Debajyoti",
+        "startTime": "13.30",
+        "endTime": "16.30",
+        "room": "CB2312",
+        "year": [
+          {
+            "year": 1,
+            "fastTrack": true
+          },
+          {
+            "year": 2,
+            "fastTrack": false
+          }
+        ],
+        "day": "Monday"
+      },...
+    ]
+    ```
+
+    
+- `/api/:subjectId` Get a specific subject
+  
   - Ex: `/csc105`  (Case insensitive)
+  
+  - Example Response
+  
+    ```json
+    {
+      "subject": "CSC105 Web Application Development",
+      "lecturer": "Asst. Prof. Dr. Chonlameth",
+      "startTime": "13.00",
+      "endTime": "17.00",
+      "room": "Classroom 4/2",
+      "year": [
+        {
+          "year": 1,
+          "fastTrack": false
+        }
+      ],
+      "day": "Wednesday"
+    }
+    ```
+  
+    
 
 ## GraphQL API Endpoint
 
