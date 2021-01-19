@@ -2,6 +2,7 @@ import fastify from 'fastify'
 import { ApolloServer } from 'apollo-server-fastify'
 import rateLimit from 'fastify-rate-limit'
 import helmet from 'fastify-helmet'
+import cors from 'fastify-cors'
 import typeDefs from './schema/index.ts'
 import resolvers from './resolvers/index.ts'
 import { rootRoute, specificRoute, downloadiCalRoute } from './routes.ts'
@@ -15,6 +16,10 @@ app.register(helmet)
 app.register(rateLimit, {
 	max: 100,
 	timeWindow: 5000
+})
+app.register(cors, {
+	origin: '*',
+	methods: 'GET'
 })
 
 app.register(rootRoute, { prefix: '/api' })
