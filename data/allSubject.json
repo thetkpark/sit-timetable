@@ -2,7 +2,7 @@
 	{
 		"subject": "LNG222 Academic Listening and Speaking in International Contexts (G.5)",
 		"lecturer": "Aj John",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "CB2304",
 		"year": [
@@ -69,7 +69,7 @@
 	{
 		"subject": "CSC209 Data Structure",
 		"lecturer": "Asst.Prof.Dr.Narongrit",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "10.30",
 		"room": "CB2308",
 		"year": [
@@ -110,7 +110,7 @@
 	{
 		"subject": "CSC322 Intelligent Infrastructure",
 		"lecturer": "Dr.Anuchart",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "CB2304",
 		"year": [
@@ -196,7 +196,7 @@
 	},
 	{
 		"subject": "CSC103 Computer Architecture and Organization",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "CB2312",
 		"year": [
@@ -210,7 +210,7 @@
 	{
 		"subject": "LNG322 Academic Writing I (G.2)",
 		"lecturer": "Aj.John",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "CB2305",
 		"year": [
@@ -242,7 +242,7 @@
 	{
 		"subject": "LNG322 Academic Writing I (G.3)",
 		"lecturer": "Aj.SOLA",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "Online",
 		"year": [
@@ -314,7 +314,7 @@
 	{
 		"subject": "LNG222 Academic Listening and Speaking in International Contexts (G.6)",
 		"lecturer": "Aj John",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "CB2304",
 		"year": [
@@ -369,7 +369,7 @@
 	},
 	{
 		"subject": "GEN351 Modern Management and Leadership (G.33-34)",
-		"startTime": "8.30",
+		"startTime": "08.30",
 		"endTime": "11.30",
 		"room": "Online",
 		"year": [
@@ -383,7 +383,7 @@
 	{
 		"subject": "CSC532 Machine Learning",
 		"lecturer": "Assoc.Prof.Dr.Jonathan",
-		"startTime": "9.00",
+		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "Training room 1",
 		"year": [
