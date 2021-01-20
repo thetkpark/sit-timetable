@@ -39,6 +39,15 @@ const rootRoute = async (app: FastifyInstance): Promise<void> => {
 				subjects = subjects.filter(subject =>
 					subject.year.every(years => !(years.year == year - 1 && years.fastTrack == true))
 				)
+				const removeIndex = subjects.findIndex(
+					subJ =>
+						subJ.subject == 'LNG322 Academic Writing I (G.3)' &&
+						subJ.startTime == '09.00' &&
+						subJ.day == 'Thursday'
+				)
+				if (removeIndex !== -1) {
+					subjects.splice(removeIndex, 1)
+				}
 			}
 			if (day) {
 				subjects = subjects.filter(subject => subject.day == day)
@@ -81,6 +90,15 @@ const downloadiCalRoute = async (app: FastifyInstance): Promise<void> => {
 				subjects = subjects.filter(subject =>
 					subject.year.every(years => !(years.year == year && years.fastTrack == true))
 				)
+				const removeIndex = subjects.findIndex(
+					subJ =>
+						subJ.subject == 'LNG322 Academic Writing I (G.3)' &&
+						subJ.startTime == '09.00' &&
+						subJ.day == 'Thursday'
+				)
+				if (removeIndex !== -1) {
+					subjects.splice(removeIndex, 1)
+				}
 			}
 			if (year && fastTrack == 'true') {
 				subjects = subjects.filter(subject =>
