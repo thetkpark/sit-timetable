@@ -368,6 +368,20 @@
 		"day": "Friday"
 	},
 	{
+		"subject": "CSC217 OS Lab",
+		"lecturer": "Asst.Prof.Dr.Narongrit",
+		"startTime": "16.00",
+		"endTime": "18.00",
+		"room": "Traning 3/5",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
 		"subject": "GEN351 Modern Management and Leadership (G.33-34)",
 		"startTime": "08.30",
 		"endTime": "11.30",
