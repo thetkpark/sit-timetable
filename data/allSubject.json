@@ -1,38 +1,66 @@
 [
     {
 		"subject": "CSC100 LEARNING HOW TO LEARN",
-		"lecturer": "Aj John",
+		"lecturer": "Asst. Prof. Dr. Chonlameth Arpnikanondt",
 		"startTime": "09.00",
 		"endTime": "10.00",
-		"room": "CB2304",
+		"room": "C401",
 		"year": [
 			{
 				"year": 1,
 				"fastTrack": false
 			}
 		],
-		"day": "Monday"
+		"day": "Wednesday"
 	},
     {
 		"subject": "CSC101 COMPUTING INVENTIONS AND INNOVATIONS",
-		"lecturer": "Aj John",
-		"startTime": "09.00",
+		"lecturer": "Asst. Prof. Dr. Chonlameth Arpnikanondt",
+		"startTime": "10.00",
 		"endTime": "12.00",
-		"room": "CB2304",
+		"room": "C401",
 		"year": [
 			{
 				"year": 1,
 				"fastTrack": false
 			}
 		],
-		"day": "Monday"
+		"day": "Wednesday"
 	},
     {
 		"subject": "CSC102 INTRODUCTION TO PROGRAMMING",
-		"lecturer": "Aj John",
-		"startTime": "09.00",
-		"endTime": "12.00",
-		"room": "CB2304",
+		"lecturer": "Asst. Prof. Dr. Worarat Krathu",
+		"startTime": "14.00",
+		"endTime": "18.00",
+		"room": "Dummy",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+    {
+		"subject": "CSC165 DISCRETE MATHEMATICS",
+		"lecturer": "Asst. Prof. Dr. Pornchai Mongkolnam",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "C401",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "GEN111 MAN AND ETHICS OF LIVING",
+		"lecturer": "Dummy Teacher",
+		"startTime": "08.30",
+		"endTime": "11.30",
+		"room": "ONLINE",
 		"year": [
 			{
 				"year": 1,
@@ -41,9 +69,37 @@
 		],
 		"day": "Monday"
 	},
-    {
-		"subject": "CSC165 DISCRETE MATHEMATICS",
-		"lecturer": "Aj John",
+	{
+		"subject": "GEN121 LEARNING AND PROBLEM SOLVING SKILLS",
+		"lecturer": "Dummy Teacher",
+		"startTime": "14.30",
+		"endTime": "17.30",
+		"room": "ONLINE",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "GEN231 MIRACLE OF THINKING",
+		"lecturer": "Dummy Teacher",
+		"startTime": "14.30",
+		"endTime": "17.30",
+		"room": "ONLINE",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Thursday"
+	},
+	{
+		"subject": "LNG221 ACADEMIC ENGLISH IN INTERNATIONAL CONTEXTS (G.8)",
+		"lecturer": "John Francis Lawry",
 		"startTime": "09.00",
 		"endTime": "12.00",
 		"room": "CB2304",
@@ -53,6 +109,310 @@
 				"fastTrack": false
 			}
 		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "LNG221 ACADEMIC ENGLISH IN INTERNATIONAL CONTEXTS (G.9)",
+		"lecturer": "Dummy Teacher",
+		"startTime": "09.00",
+		"endTime": "12.00",
+		"room": "CB2305",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "LNG221 ACADEMIC ENGLISH IN INTERNATIONAL CONTEXTS (G.10)",
+		"lecturer": "Dummy Teacher",
+		"startTime": "09.00",
+		"endTime": "12.00",
+		"room": "CB2305",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC210 ANALYSIS AND DESIGN OF ALGORITHMS",
+		"lecturer": "Asst. Prof. Dr. Narongrit Waraporn",
+		"startTime": "09.00",
+		"endTime": "10.30",
+		"room": "CB2312",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "CSC210 ANALYSIS AND DESIGN OF ALGORITHMS",
+		"lecturer": "Asst. Prof. Dr. Narongrit Waraporn",
+		"startTime": "14.30",
+		"endTime": "16.00",
+		"room": "CB2312",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC213 SYSTEMS ANALYSIS AND DESIGN",
+		"lecturer": "Dr. Vithida Chongsuphajaisiddhi",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2312",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "CSC218 DATABASE SYSTEMS",
+		"lecturer": "Asst. Prof. Dr. Narongrit Waraporn",
+		"startTime": "10.30",
+		"endTime": "12.00",
+		"room": "CB2312",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "CSC218 DATABASE SYSTEMS",
+		"lecturer": "Asst. Prof. Dr. Narongrit Waraporn",
+		"startTime": "13.00",
+		"endTime": "14.30",
+		"room": "CB2312",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC220 COMPUTER NETWORKS",
+		"lecturer": "Dr. Anuchart Tassanaviboon & Dr. Tuul Triyason",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2312",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Thursday"
+	},
+	{
+		"subject": "GEN352 TECHNOLOGY AND INNOVATION FOR SUSTAINABLE DEVELOPMENT",
+		"lecturer": "Asst. Prof. Dr. Chonlameth Arpnikanondt",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "C401",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "LNG200 EFFECTIVE LISTENING (G.3)",
+		"lecturer": "Dummy Teacher",
+		"startTime": "09.00",
+		"endTime": "10.00",
+		"room": "ONLINE",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "LNG200 EFFECTIVE LISTENING (G.4)",
+		"lecturer": "Dummy Teacher",
+		"startTime": "10.30",
+		"endTime": "11.30",
+		"room": "ONLINE",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC262 LINEAR ALGEBRA FOR COMPUTER SCIENCE APPLICATIONS",
+		"lecturer": "Dr. Tuul Triyason",
+		"startTime": "09.00",
+		"endTime": "12.00",
+		"room": "Dummy",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC287 SELECTED NATURAL SCIENCE TOPIC FOR COMPUTER SCIENTISTS I",
+		"lecturer": "Dr. Kriangkrai Wantong & Asst. Prof. Dr. Thana Sutthibutpong",
+		"startTime": "13.30",
+		"endTime": "17.30",
+		"room": "Dummy",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "CSC289 SELECTED NON-LABORATORY NATURAL SCIENCE TOPIC FOR COMPUTER SCIENTISTS",
+		"lecturer": "Dr. Tanapat Deesuwan",
+		"startTime": "09.30",
+		"endTime": "12.30",
+		"room": "C401",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
 		"day": "Monday"
+	},
+	{
+		"subject": "CSC340 ARTIFICIAL INTELLIGENCE",
+		"lecturer": "Asst. Prof. Dr. Chakarida Nukoolkit",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2301",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Monday"
+	},
+	{
+		"subject": "CSC345 DATA SCIENCE",
+		"lecturer": "Asst. Prof. Dr. Chakarida Nukoolkit",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2301",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false,
+				"track": ["DS"]
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC371 INTRODUCTION TO DISTRIBUTED SYSTEMS AND PARALLEL COMPUTING",
+		"lecturer": "Asst. Prof. Dr. Chonlameth Arpnikanondt",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2308",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false,
+				"track": ["EL", "รีบ"]
+			}
+		],
+		"day": "Thursday"
+	},
+	{
+		"subject": "LNG320 CONTENT-BASED ENGLISH LEARNING (G.11)",
+		"lecturer": "John Francis Lawry",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2304",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "LNG320 CONTENT-BASED ENGLISH LEARNING (G.12)",
+		"lecturer": "Dummy Teacher",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2305",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "MTH101 MATHEMATICS I",
+		"lecturer": "Assoc. Prof. Dr. Wirawan Chinviriyasit",
+		"startTime": "8.30",
+		"endTime": "10.30",
+		"room": "CB2404",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			},
+			{
+				"year": 2,
+				"fastTrack": true
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "MTH101 MATHEMATICS I",
+		"lecturer": "Assoc. Prof. Dr. Wirawan Chinviriyasit",
+		"startTime": "08.30",
+		"endTime": "10.30",
+		"room": "CB2403",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			},
+			{
+				"year": 2,
+				"fastTrack": true
+			}
+		],
+		"day": "Thursday"
 	}
 ]
