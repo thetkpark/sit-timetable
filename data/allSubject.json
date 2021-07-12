@@ -17,7 +17,7 @@
 		"day": "Monday"
 	},
 	{
-		"subject": "CSC289 Selected Non-Laboratory Natural Science Topic for CS",
+		"subject": "CSC 289 Selected Non-Laboratory Natural Science Topic for CS",
 		"startTime": "9.30",
 		"endTime": "12.30",
 		"room": "Classroom 4/2",
@@ -78,7 +78,7 @@
 		"day": "Tuesday"
 	},
 	{
-		"subject": "CSC287 Selected Natural Science Topic for Computer Scientists I",
+		"subject": "CSC 287 Selected Natural Science Topic for Computer Scientists I",
 		"startTime": "13.30",
 		"endTime": "17.30",
 		"room": "12A-12B",
@@ -140,7 +140,7 @@
 		"day": "Wednesday"
 	},
 	{
-		"subject": "LNG320 Content-based Language Learning",
+		"subject": "LNG 320 Content-based Language Learning",
 		"lecturer": "Aj.John",
 		"startTime": "13.30",
 		"endTime": "16.30",
@@ -149,7 +149,7 @@
 		"day": "Wednesday"
 	},
     {
-		"subject": "LNG320 Content-based Language Learning",
+		"subject": "LNG 320 Content-based Language Learning",
 		"lecturer": "Aj.Leign",
 		"startTime": "13.30",
 		"endTime": "16.30",
