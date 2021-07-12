@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { Subject } from '../types/Subject.ts'
+import { Subject } from '../types/Subject'
 
 const getAllSubject = async (): Promise<Subject[]> => {
 	const text = await fs.promises.readFile('data/allSubject.json')

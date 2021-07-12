@@ -1,5 +1,5 @@
 import { UserInputError } from 'apollo-server-fastify'
-import getAllSubject from '../db/db.ts'
+import getAllSubject from '../db/db'
 import { Subject } from '../types/Subject'
 
 const resolvers = {

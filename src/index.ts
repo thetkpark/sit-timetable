@@ -3,9 +3,9 @@ import { ApolloServer } from 'apollo-server-fastify'
 import rateLimit from 'fastify-rate-limit'
 import helmet from 'fastify-helmet'
 import cors from 'fastify-cors'
-import typeDefs from './schema/index.ts'
-import resolvers from './resolvers/index.ts'
-import { rootRoute, specificRoute, downloadiCalRoute } from './routes.ts'
+import typeDefs from './schema/index'
+import resolvers from './resolvers/index'
+import { rootRoute, specificRoute, downloadiCalRoute } from './routes'
 
 const port = process.env.PORT || 4000
 const app = fastify({

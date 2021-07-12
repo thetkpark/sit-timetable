@@ -1,7 +1,7 @@
 import { FastifyInstance } from 'fastify'
 import fs from 'fs'
 import { Subject, DayInWeek } from './types/Subject'
-import getAllSubject from './db/db.ts'
+import getAllSubject from './db/db'
 import generateiCal from './util/iCal'
 
 interface SubjectQueryString {
