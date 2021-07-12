@@ -1,14 +1,14 @@
 export type DayInWeek = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday'
 
-export enum Track {
-	DS = 'DS',
-	EL = 'EL',
-	NO = 'NO'
-}
+// export enum Track {
+// 	DS = 'DS',
+// 	EL = 'EL',
+// 	NO = 'NO'
+// }
 export interface Year {
 	year: number
 	fastTrack: boolean
-	track: Track
+	// track?: Track
 }
 export interface Subject {
 	subject: String

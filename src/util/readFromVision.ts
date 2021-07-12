@@ -1,6 +1,6 @@
 /* eslint-disable no-lonely-if */
 import fs from 'fs'
-import { Subject } from '../types/Subject.ts'
+import { Subject } from '../types/Subject'
 
 const defaultYear = {
 	year: 1,
@@ -18,10 +18,10 @@ const vistionResultTextToJson = filePath => {
 	const subject: Subject[] = []
 	let i = 0
 	while (i < text.length) {
-		if (/(CSC\s*291|CSC\s*498).+/g.test(text[i])) {
-			i += 1
-			continue
-		}
+		// if (/(CSC\s*291|CSC\s*498).+/g.test(text[i])) {
+		// 	i += 1
+		// 	continue
+		// }
 		const subJectRegex = /(\w{3}\s?\d{3}).*/
 		if (subJectRegex.test(text[i])) {
 			const testGenRegex = /(GEN\d{3}).*/
@@ -79,8 +79,11 @@ const vistionResultTextToJson = filePath => {
 		} else {
 			i += 1
 		}
+		console.log(subject)
 	}
 	fs.writeFileSync('data/allSubject.json', JSON.stringify(subject))
 }
 
-export default vistionResultTextToJson
+// export default vistionResultTextToJson
+
+vistionResultTextToJson('data/2564-1.txt')
