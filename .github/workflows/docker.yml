@@ -1,10 +1,14 @@
-name: Docker Image Build and Push
+name: Build, Push, and Deploy
 
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+    
+env:
+  CLUSTER_NAME: cscms-services
+  CLUSTER_RESOURCE_GROUP: cscms.me
 
 jobs:
   build-and-push:
@@ -18,7 +22,7 @@ jobs:
           images: thetkpark/cs-timetable-api
           tags: |
             type=raw,value=latest
-            type=sha,format=long,prefix=
+            type=raw,value=${{ github.sha }}
       - name: Docker Login
         uses: docker/login-action@v1.10.0
         with:
@@ -30,3 +34,26 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+  deploy-to-aks:
+    runs-on: ubuntu-latest
+    needs: [build-and-push]
+    steps:
+      - name: Azure Kubernetes set context
+        uses: Azure/aks-set-context@v1.1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+          resource-group: ${{env.CLUSTER_RESOURCE_GROUP}}
+          cluster-name: ${{env.CLUSTER_NAME}}
+      - name: Deploy to Kubernetes cluster
+        uses: Azure/k8s-deploy@v1
+        with:
+          manifests: k8s-manifest.yml
+          images: thetkpark/cs-timetable-api:${{ github.sha }}
+
+
+
+
+
+
+
+
