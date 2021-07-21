@@ -37,5 +37,5 @@ apolloServer.setGraphQLPath('/graphql')
 app.register(apolloServer.createHandler())
 
 app.listen(port, '0.0.0.0', () => {
-	console.log(`Serving on ${port}`)
+	console.log(`Serving on port ${port}`)
 })
