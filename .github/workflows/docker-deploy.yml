@@ -40,7 +40,7 @@ jobs:
           url: https://api.github.com/repos/thetkpark/cscms-services-deployment/dispatches
           method: POST
           data: '{"event_type": "timetable_api"}'
-          bearerToken: token ${{secrets.ACCESS_TOKEN}}
+          username: ${{secrets.ACCESS_TOKEN}}
 
 
 
