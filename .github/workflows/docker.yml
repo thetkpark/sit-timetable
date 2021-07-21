@@ -47,7 +47,7 @@ jobs:
       - name: Deploy to Kubernetes cluster
         uses: Azure/k8s-deploy@v1
         with:
-          manifests: ./k8s/timetable-api-depl.yaml
+          manifests: k8s-manifest.yml
           images: thetkpark/cs-timetable-api:${{ github.sha }}
 
 
