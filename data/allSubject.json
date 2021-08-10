@@ -53,7 +53,7 @@
 	{
 		"subject": "CSC 210 Algorithms",
 		"lecturer": "Asst.Prof.Dr. Narongrit",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "10.30",
 		"room": "CB2312",
 		"year": [{ "year": 2, "fastTrack": false }],
