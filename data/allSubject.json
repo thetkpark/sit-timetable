@@ -137,7 +137,7 @@
 		"endTime": "16.30",
 		"room": "CB2312",
 		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Wednesday"
+		"day": "Monday"
 	},
 	{
 		"subject": "LNG 320 Content-based Language Learning",
@@ -288,6 +288,15 @@
 		"startTime": "13.30",
 		"endTime": "16.30",
 		"room": "CB2301",
+		"year": [{ "year": 3, "fastTrack": false },{ "year": 4, "fastTrack": false }],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC 301 Global Employability",
+		"lecturer": "",
+		"startTime": "17.00",
+		"endTime": "18.20",
+		"room": "Online",
 		"year": [{ "year": 3, "fastTrack": false },{ "year": 4, "fastTrack": false }],
 		"day": "Friday"
 	}
