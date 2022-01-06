@@ -25,6 +25,12 @@ app.register(cors, {
 app.register(rootRoute, { prefix: '/api' })
 app.register(specificRoute, { prefix: '/api' })
 app.register(downloadiCalRoute, { prefix: '/api' })
+app.get("/api/healthz", (req, res) => {
+	res.send({
+		success: true,
+		timestamp: new Date()
+	})
+})
 
 const apolloServer = new ApolloServer({
 	typeDefs,
