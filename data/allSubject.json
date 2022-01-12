@@ -2,7 +2,7 @@
 	{
 		"subject": "LNG222 Academic Listening and Speaking in International Contexts (G.8)",
 		"lecturer": "Aj. John",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "12.00",
 		"room": "Online",
 		"year": [
@@ -16,7 +16,7 @@
 	{
 		"subject": "LNG322 Academic Writing I (G.2)",
 		"lecturer": "Aj. Leigh",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "12.00",
 		"room": "Online",
 		"year": [
@@ -29,7 +29,7 @@
 	},
 	{
 		"subject": "MTH102 Mathematics II (G.35)",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "11.00",
 		"room": "Online",
 		"year": [
@@ -64,7 +64,7 @@
 	},
 	{
 		"subject": "GEN101 Physical Education (G.46)",
-		"startTime": "08.30",
+		"startTime": "8.30",
 		"endTime": "10.30",
 		"room": "Online",
 		"year": [
@@ -132,7 +132,7 @@
 	},
 	{
 		"subject": "MTH102 Mathematics II (G.35)",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "11.00",
 		"room": "Online",
 		"year": [
@@ -168,7 +168,7 @@
 	{
 		"subject": "CSC209 Data Structure (Practical Experience)",
 		"lecturer": "Asst.Prof.Dr. Narongrit",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "10.30",
 		"room": "Room 10/4-10/5",
 		"year": [
@@ -196,7 +196,7 @@
 	{
 		"subject": "LNG322 Academic Writing I (G.2)",
 		"lecturer": "Aj. Leigh",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "12.00",
 		"room": "Online",
 		"year": [
@@ -224,7 +224,7 @@
 	{
 		"subject": "CSC491 Intelligent Systems and Applications",
 		"lecturer": "Asst.Prof.Dr. Jonathan",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "12.00",
 		"room": "Online",
 		"year": [
@@ -260,7 +260,7 @@
 	{
 		"subject": "CSC233 Programming Paradigms",
 		"lecturer": "Asst.Prof.Dr. Pornchai",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "10.30",
 		"room": "Online",
 		"year": [
@@ -287,7 +287,7 @@
 	{
 		"subject": "CSC234 User-Centered Mobile App. Dev. (Theory+Lab)",
 		"lecturer": "Assoc.Prof.Dr. Vajirasak",
-		"startTime": "08.30",
+		"startTime": "8.30",
 		"endTime": "12.30",
 		"room": "Room 11/2-11/3",
 		"year": [
@@ -315,7 +315,7 @@
 	{
 		"subject": "LNG303 Oral Presentation Skills",
 		"lecturer": "Aj. Leigh",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "11.00",
 		"room": "Online",
 		"year": [
@@ -343,7 +343,7 @@
 	{
 		"subject": "CSC103 Computer Architecture and Organization",
 		"lecturer": "Aj. Siam",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "12.00",
 		"room": "Online",
 		"year": [
@@ -370,7 +370,7 @@
 	},
 	{
 		"subject": "GEN351 Modern Management and Leadership (G.33-34)",
-		"startTime": "08.30",
+		"startTime": "8.30",
 		"endTime": "11.30",
 		"room": "Online",
 		"year": [
@@ -402,7 +402,7 @@
 	{
 		"subject": "CSC532 Machine Learning",
 		"lecturer": "Assoc.Prof.Dr. Jonathan",
-		"startTime": "09.00",
+		"startTime": "9.00",
 		"endTime": "12.00",
 		"room": "Online",
 		"year": [
