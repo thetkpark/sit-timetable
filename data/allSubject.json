@@ -314,6 +314,14 @@
 		"day": "Friday"
 	},
 	{
+		"subject": "CSC 492 Cloud Infrastructure",
+		"startTime": "9.00",
+		"endTime": "12.00",
+		"room": "CB2305",
+		"year": [{ "year": 3, "fastTrack": false }, { "year": 4, "fastTrack": false }],
+		"day": "Friday"
+	},
+	{
 		"subject": "CSC 289 Selected Non-Laboratory Natural Science Topic for CS",
 		"startTime": "13.30",
 		"endTime": "16.30",
