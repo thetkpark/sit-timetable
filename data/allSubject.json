@@ -134,7 +134,7 @@
 		"lecturer": "Aj. Leigh",
 		"startTime": "13.30",
 		"endTime": "14.30",
-		"room": "",
+		"room": "Onsite",
 		"year": [{ "year": 4, "fastTrack": false }],
 		"day": "Tuesday"
 	},
@@ -315,10 +315,14 @@
 	},
 	{
 		"subject": "CSC 492 Cloud Infrastructure",
+		"lecturer": "Dr. Anuchart",
 		"startTime": "9.00",
 		"endTime": "12.00",
 		"room": "CB2305",
-		"year": [{ "year": 3, "fastTrack": false }, { "year": 4, "fastTrack": false }],
+		"year": [
+			{ "year": 3, "fastTrack": false },
+			{ "year": 4, "fastTrack": false }
+		],
 		"day": "Friday"
 	},
 	{
