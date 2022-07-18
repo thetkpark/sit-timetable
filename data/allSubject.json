@@ -134,7 +134,7 @@
 		"lecturer": "Aj. Leigh",
 		"startTime": "13.30",
 		"endTime": "14.30",
-		"room": "Onsite",
+		"room": "CB2304",
 		"year": [{ "year": 4, "fastTrack": false }],
 		"day": "Tuesday"
 	},
@@ -143,7 +143,7 @@
 		"lecturer": "Aj. Leigh",
 		"startTime": "15.30",
 		"endTime": "16.30",
-		"room": "",
+		"room": "CB2304",
 		"year": [{ "year": 4, "fastTrack": false }],
 		"day": "Tuesday"
 	},
@@ -152,7 +152,7 @@
 		"lecturer": "Aj. Nemo",
 		"startTime": "15.30",
 		"endTime": "16.30",
-		"room": "",
+		"room": "CB2313",
 		"year": [{ "year": 4, "fastTrack": false }],
 		"day": "Tuesday"
 	},
