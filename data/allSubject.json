@@ -1,336 +1,406 @@
 [
 	{
-		"subject": "GEN 111 Man and Ethics of Living (G.31)",
-		"startTime": "9.30",
-		"endTime": "12.30",
-		"room": "Online",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Monday"
-	},
-	{
-		"subject": "LNG 200 Effective Listening (G.3)",
-		"lecturer": "Aj. SoLA",
-		"startTime": "9.30",
-		"endTime": "10.30",
-		"room": "Online",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Monday"
-	},
-	{
-		"subject": "LNG 200 Effective Listening (G.4)",
-		"lecturer": "Aj. SoLA",
-		"startTime": "10.30",
-		"endTime": "11.30",
-		"room": "Online",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Monday"
-	},
-	{
-		"subject": "LNG 200 Effective Listening (G.5)",
-		"lecturer": "Aj. SoLA",
-		"startTime": "11.30",
-		"endTime": "12.30",
-		"room": "Online",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Monday"
-	},
-	{
-		"subject": "CSC 340 AI",
-		"lecturer": "Asst.Prof.Dr.Chakarida",
+		"subject": "LNG322 Academic Writing I (G.2)",
+		"lecturer": "Aj. Leigh",
 		"startTime": "9.00",
 		"endTime": "12.00",
-		"room": "CB2312",
-		"year": [{ "year": 3, "fastTrack": false }],
-		"day": "Monday"
-	},
-	{
-		"subject": "LNG 320 Content-based Language Learning (G.1)",
-		"lecturer": "Aj.Leigh",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "CB2305",
-		"year": [{ "year": 3, "fastTrack": false }],
-		"day": "Monday"
-	},
-	{
-		"subject": "LNG 320 Content-based Language Learning (G.2)",
-		"lecturer": "Aj.Nemo",
-		"startTime": "13.30",
-		"endTime": "16.30",
 		"room": "CB2313",
-		"year": [{ "year": 3, "fastTrack": false }],
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
 		"day": "Monday"
 	},
 	{
-		"subject": "CSC 535 Big Data Analytics",
-		"lecturer": "Dr. Debajyoti",
-		"startTime": "9.00",
-		"endTime": "12.00",
-		"room": "CB2305",
-		"year": [{ "year": 4, "fastTrack": false }],
-		"day": "Monday"
-	},
-	{
-		"subject": "GEN 121 Learning and Problem Solving Skills (G.32)",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "Online",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "CSC 210 Algorithms",
-		"lecturer": "Asst.Prof.Dr. Narongrit",
-		"startTime": "9.00",
-		"endTime": "10.30",
-		"room": "CB2308",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "CSC 218 DB",
-		"lecturer": "Asst.Prof.Dr. Narongrit",
-		"startTime": "10.30",
-		"endTime": "12.00",
-		"room": "CB2308",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "MTH 101 Mathematics I (G.34)",
-		"lecturer": "Asst.Prof.Dr. Wirawan",
-		"startTime": "13.30",
-		"endTime": "15.30",
-		"room": "Online",
-		"year": [
-			{ "year": 2, "fastTrack": true },
-			{ "year": 3, "fastTrack": false }
-		],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "CSC 345 Data Science",
-		"lecturer": "Asst.Prof.Dr.Chakarida",
-		"startTime": "9.00",
-		"endTime": "12.00",
-		"room": "Training room 11/3",
-		"year": [{ "year": 3, "fastTrack": false }],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "CSC 371 Introduction to Distributed Systems and Parallel Computing",
-		"lecturer": "Asst.Prof.Dr. Chonlameth / Dr. Tuul",
-		"startTime": "9.00",
-		"endTime": "12.00",
-		"room": "CB2306",
-		"year": [
-			{ "year": 3, "fastTrack": true },
-			{ "year": 4, "fastTrack": false }
-		],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "LNG 304 Meetings and Discussions (G.2)",
-		"lecturer": "Aj. Leigh",
-		"startTime": "13.30",
-		"endTime": "14.30",
-		"room": "CB2304",
-		"year": [{ "year": 4, "fastTrack": false }],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "LNG 308 Technical Report Writing (G.5)",
-		"lecturer": "Aj. Leigh",
-		"startTime": "15.30",
-		"endTime": "16.30",
-		"room": "CB2304",
-		"year": [{ "year": 4, "fastTrack": false }],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "LNG 308 Technical Report Writing (G.6)",
-		"lecturer": "Aj. Nemo",
-		"startTime": "15.30",
-		"endTime": "16.30",
-		"room": "Online",
-		"year": [{ "year": 4, "fastTrack": false }],
-		"day": "Tuesday"
-	},
-	{
-		"subject": "LNG 221 Academic English (G.9)",
-		"lecturer": "Aj. Leigh",
-		"startTime": "9.00",
-		"endTime": "12.00",
-		"room": "CB2304",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Wednesday"
-	},
-	{
-		"subject": "LNG 221 Academic English (G.10)",
-		"lecturer": "Aj. Nemo",
-		"startTime": "9.00",
-		"endTime": "12.00",
-		"room": "CB2305",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Wednesday"
-	},
-	{
-		"subject": "CSC 165 Discrete Mathematics",
-		"lecturer": "Asst.Prof.Dr. Pornchai",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "CB2301",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Wednesday"
-	},
-	{
-		"subject": "GEN 352 Technology and Innovation for Sustainable Development (G.32)",
-		"lecturer": "Asst.Prof.Dr. Chonlameth",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "Hybrid",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Wednesday"
-	},
-	{
-		"subject": "CSC 262 Linear Algebra for Computer Science Applications",
-		"lecturer": "Dr.Tuul",
-		"startTime": "9.00",
-		"endTime": "12.00",
-		"room": "CB2312",
-		"year": [{ "year": 3, "fastTrack": false }],
-		"day": "Wednesday"
-	},
-	{
-		"subject": "CSC 323 Management Information Systems",
-		"lecturer": "Assoc.Prof.Dr. Bunthit",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "CB2305",
-		"year": [
-			{ "year": 3, "fastTrack": false },
-			{ "year": 4, "fastTrack": false }
-		],
-		"day": "Wednesday"
-	},
-	{
-		"subject": "CSC 102 Introduction to Programming",
-		"lecturer": "Asst.Prof.Dr. Worarat",
+		"subject": "MTH102 Mathematics II (G.34)",
 		"startTime": "8.30",
-		"endTime": "12.30",
-		"room": "Training room 10/1 - 10/3",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Thursday"
-	},
-	{
-		"subject": "CSC 100 How to learn",
-		"lecturer": "Asst.Prof.Dr.Chonlameth",
-		"startTime": "13.30",
-		"endTime": "14.30",
-		"room": "CB2312",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Thursday"
-	},
-	{
-		"subject": "CSC 101 Invention and Innovation",
-		"lecturer": "Asst.Prof.Dr.Chonlameth",
-		"startTime": "14.30",
-		"endTime": "16.30",
-		"room": "CB2312",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Thursday"
-	},
-	{
-		"subject": "CSC 220 Computer Networks",
-		"lecturer": "Asst.Prof.Dr.Chonlameth / Dr.Tuul / Dr.Debajyoti",
-		"startTime": "9.00",
-		"endTime": "12.00",
-		"room": "Clasroom 4/2",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Thursday"
-	},
-	{
-		"subject": "MTH 101 Mathematics I (G.34)",
-		"lecturer": "Asst.Prof.Dr. Wirawan",
-		"startTime": "13.30",
-		"endTime": "15.30",
+		"endTime": "10.30",
 		"room": "Online",
 		"year": [
-			{ "year": 2, "fastTrack": true },
-			{ "year": 3, "fastTrack": false }
+			{
+				"year": 2,
+				"fastTrack": true
+			},
+			{
+				"year": 3,
+				"fastTrack": false
+			}
 		],
-		"day": "Thursday"
+		"day": "Tuesday"
 	},
 	{
-		"subject": "CSC 287 Selected Natural Science Topic for Computer Scientists I",
-		"startTime": "8.30",
-		"endTime": "12.30",
-		"room": "Online",
-		"year": [{ "year": 3, "fastTrack": false }],
-		"day": "Thursday"
-	},
-	{
-		"subject": "CSC 494 Natural Language Processing",
-		"lecturer": "Assoc.Prof.Dr. Jonathan",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "Training Room 11/1",
-		"year": [{ "year": 4, "fastTrack": false }],
-		"day": "Thursday"
-	},
-	{
-		"subject": "GEN 231 Miracle of Thinking (G.31)",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "Online",
-		"year": [{ "year": 1, "fastTrack": false }],
-		"day": "Friday"
-	},
-	{
-		"subject": "CSC 218 DB",
-		"lecturer": "Asst.Prof.Dr.Narongrit",
-		"startTime": "9.00",
-		"endTime": "10.30",
-		"room": "CB2301",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Friday"
-	},
-	{
-		"subject": "CSC 210 Algorithms",
-		"lecturer": "Asst.Prof.Dr. Narongrit",
-		"startTime": "10.30",
-		"endTime": "12.00",
-		"room": "CB2301",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Friday"
-	},
-	{
-		"subject": "CSC 213 SA&D",
-		"lecturer": "Dr. Vithida",
-		"startTime": "13.30",
-		"endTime": "16.30",
-		"room": "CB2301",
-		"year": [{ "year": 2, "fastTrack": false }],
-		"day": "Friday"
-	},
-	{
-		"subject": "CSC 492 Cloud Infrastructure",
+		"subject": "CSC325 Computer Security",
 		"lecturer": "Dr. Anuchart",
 		"startTime": "9.00",
 		"endTime": "12.00",
-		"room": "CB2305",
+		"room": "CB2312",
 		"year": [
-			{ "year": 3, "fastTrack": false },
-			{ "year": 4, "fastTrack": false }
+			{
+				"year": 3,
+				"fastTrack": false
+			},
+			{
+				"year": 4,
+				"fastTrack": false
+			}
+		],
+		"day": "Monday"
+	},
+	{
+		"subject": "GEN101 Physical Education (G.40)",
+		"startTime": "13.30",
+		"endTime": "15.30",
+		"room": "GYM",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
 		],
 		"day": "Friday"
 	},
 	{
-		"subject": "CSC 289 Selected Non-Laboratory Natural Science Topic for CS",
+		"subject": "GEN101 Physical Education (G.41)",
+		"startTime": "15.30",
+		"endTime": "17.30",
+		"room": "GYM",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "LNG222 Academic Listening and Speaking in International Contexts (G.7)",
+		"lecturer": "Dr. Zhaoyi Pan",
+		"startTime": "9.00",
+		"endTime": "12.00",
+		"room": "CB2305",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "LNG222 Academic Listening and Speaking in International Contexts (G.8)",
+		"lecturer": "Dr. Zhaoyi Pan",
 		"startTime": "13.30",
 		"endTime": "16.30",
+		"room": "CB2305",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "CSC231 Agile Software Engineering",
+		"lecturer": "Dr. Vithida / Assoc.Prof.Dr. Vajirasak",
+		"startTime": "9.00",
+		"endTime": "12.00",
+		"room": "CB2301",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "MTH102 Mathematics II (G.34)",
+		"startTime": "8.30",
+		"endTime": "10.30",
 		"room": "Online",
-		"year": [{ "year": 4, "fastTrack": false }],
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": true
+			},
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Thursday"
+	},
+	{
+		"subject": "CSC342 Business Process Management",
+		"lecturer": "Asst.Prof.Dr. Worarat",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2313",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			},
+			{
+				"year": 4,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC209 Data Structure",
+		"lecturer": "Asst.Prof.Dr. Narongrit",
+		"startTime": "9.00",
+		"endTime": "10.30",
+		"room": "CB2306",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "CSC105 Web Application Development (Theory+Lab)",
+		"lecturer": "Asst.Prof.Dr. Chonlameth",
+		"startTime": "8.30",
+		"endTime": "12.30",
+		"room": "Training room 10/3-10/4",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Thursday"
+	},
+	{
+		"subject": "LNG322 Academic Writing I (G.3)",
+		"lecturer": "Aj. Leigh",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2305",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC217 OS",
+		"lecturer": "Dr. Watanyoo",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2301",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "CSC536 Data Visualization Fundamentals",
+		"lecturer": "Asst.Prof.Dr. Pornchai",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2313",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			},
+			{
+				"year": 4,
+				"fastTrack": false
+			}
+		],
+		"day": "Thursday"
+	},
+	{
+		"subject": "CSC233 Programming Paradigms",
+		"lecturer": "Asst.Prof.Dr. Pornchai",
+		"startTime": "10.30",
+		"endTime": "12.00",
+		"room": "CB2306",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "GEN241 Beauty of Life (G.41-42)",
+		"startTime": "9.30",
+		"endTime": "12.30",
+		"room": "Online",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Monday"
+	},
+	{
+		"subject": "CSC234 User-Centered Mobile App. Dev. (Theory+Lab)",
+		"lecturer": "Dr. Vithida / Assoc.Prof.Dr. Vajirasak",
+		"startTime": "13.30",
+		"endTime": "17.30",
+		"room": "Training room 10/3-10/4",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Thursday"
+	},
+	{
+		"subject": "LNG303 Oral Presentation Skills (G.6)",
+		"lecturer": "Aj. Leigh",
+		"startTime": "11.00",
+		"endTime": "12.00",
+		"room": "CB2305",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "LNG303 Oral Presentation Skills (G.7)",
+		"lecturer": "Aj. Zhaoyi",
+		"startTime": "11.00",
+		"endTime": "12.00",
+		"room": "CB2313",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "CSC319 Advanced Java",
+		"lecturer": "Asst.Prof.Dr. Chonlameth",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2308",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "CSC103 Computer Architecture and Organization",
+		"lecturer": "Aj. Siam",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2308",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "CSC209 Data Structure",
+		"lecturer": "Asst.Prof.Dr. Narongrit",
+		"startTime": "9.00",
+		"endTime": "10.30",
+		"room": "CB2308",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "GEN351 Modern Management and Leadership (G.33-35)",
+		"startTime": "9.30",
+		"endTime": "12.30",
+		"room": "Online",
+		"year": [
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Friday"
+	},
+	{
+		"subject": "CSC261 Statistics for Scientists",
+		"lecturer": "Dr. Debajyoti",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "CB2301",
+		"year": [
+			{
+				"year": 1,
+				"fastTrack": true
+			},
+			{
+				"year": 2,
+				"fastTrack": false
+			}
+		],
+		"day": "Wednesday"
+	},
+	{
+		"subject": "CSC532 Machine Learning",
+		"lecturer": "Assoc.Prof.Dr. Jonathan",
+		"startTime": "13.30",
+		"endTime": "16.30",
+		"room": "Training room 10/5",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			},
+			{
+				"year": 4,
+				"fastTrack": false
+			}
+		],
+		"day": "Tuesday"
+	},
+	{
+		"subject": "CSC531 Data Mining",
+		"lecturer": "Asst.Prof.Dr. Chakarida",
+		"startTime": "9.00",
+		"endTime": "12.00",
+		"room": "CB2313",
+		"year": [
+			{
+				"year": 3,
+				"fastTrack": false
+			},
+			{
+				"year": 4,
+				"fastTrack": false
+			}
+		],
 		"day": "Friday"
 	}
 ]
