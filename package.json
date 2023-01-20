@@ -12,7 +12,7 @@
 		"backpack-core": "^0.8.4",
 		"datebook": "^6.2.0",
 		"dayjs": "^1.10.1",
-		"fastify": "^3.9.2",
+		"fastify": "^3.29.4",
 		"fastify-cors": "^5.1.0",
 		"fastify-helmet": "^5.1.0",
 		"fastify-rate-limit": "^5.0.1",
